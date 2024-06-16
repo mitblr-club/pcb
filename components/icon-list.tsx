@@ -56,7 +56,7 @@ export default function IconList() {
         </div>
       </Link>
 
-      <Link
+      {/* <Link
         href={siteConfig.mediaLinks.github}
         target="_blank"
         rel="noreferrer"
@@ -70,7 +70,7 @@ export default function IconList() {
           <Icons.github className="h-5 w-5" />
           <span className="sr-only">GitHub</span>
         </div>
-      </Link>
+      </Link> */}
     </nav>
   );
 }
